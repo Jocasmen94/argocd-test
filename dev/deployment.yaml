@@ -5,12 +5,13 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: myap
   replicas: 4
   template:
     metadata:
       labels:
         app: myapp
+        env: dev
     spec:
       containers:
       - name: myapp
