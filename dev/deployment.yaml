@@ -6,6 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myap
+      env: dev
   replicas: 4
   template:
     metadata:
